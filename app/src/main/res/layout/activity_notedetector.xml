@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NotedetectorActivity"
+    android:orientation="vertical"
+    android:background="#E8F8D4">
+
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_200sdp"
+            android:background="#8BC34A"
+            android:scaleType="centerCrop" />
+
+
+
+        <TextView
+            android:id="@+id/titale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="casual"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/_30sdp"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_15sdp"/>
+
+
+
+        <TextView
+            android:id="@+id/Dis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textStyle="bold"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_18sdp"/>
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
+
+
+    </LinearLayout>
